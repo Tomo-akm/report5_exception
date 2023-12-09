@@ -6,7 +6,8 @@ public class Main {
             String str = null;
             System.out.println(str.length());
         } catch (NullPointerException e) {
-            System.out.println("エラーが発生しました: " + e.getMessage());
+            System.out.println("エラーが発生しました。");
+            System.out.println(e.getMessage());
         }
     }    
 }
